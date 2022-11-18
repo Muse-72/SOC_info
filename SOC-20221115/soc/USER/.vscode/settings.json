@@ -1,0 +1,9 @@
+{
+    "files.associations": {
+        "limits": "c",
+        "memory": "c",
+        "beep.h": "c",
+        "sys.h": "c",
+        "stm32f4xx.h": "c"
+    }
+}

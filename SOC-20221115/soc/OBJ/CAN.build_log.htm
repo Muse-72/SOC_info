@@ -1,0 +1,60 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: ¦ÌVision V5.32.0.0
+Copyright (C) 2020 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: 1 1, 1, LIC=LJWSB-2IPW9-TLQCD-8FI95-KVDYN-521A7
+ 
+Tool Versions:
+Toolchain:       MDK-ARM Professional  Version: 5.32.0.0
+Toolchain Path:  E:\keli_v5\ARM\ARMCC\Bin
+C Compiler:      Armcc.exe V5.06 update 7 (build 960)
+Assembler:       Armasm.exe V5.06 update 7 (build 960)
+Linker/Locator:  ArmLink.exe V5.06 update 7 (build 960)
+Library Manager: ArmAr.exe V5.06 update 7 (build 960)
+Hex Converter:   FromElf.exe V5.06 update 7 (build 960)
+CPU DLL:         SARMCM3.DLL V5.32.0.0
+Dialog DLL:      DCM.DLL V1.17.3.0
+Target DLL:      CMSIS_AGDI.dll V1.32.12.0
+Dialog DLL:      TCM.DLL V1.46.0.0
+ 
+<h2>Project:</h2>
+E:\NIO\SOC\SOC-20221115\soc\USER\CAN.uvprojx
+Project File Date:  11/17/2022
+
+<h2>Output:</h2>
+  
+Warning: *** SUPPORT EXPIRED, NEW PRODUCT SERIAL NUMBER REQUIRED ***
+         *** Running with Code Size Limit: 32K                   ***
+*** Using Compiler 'V5.06 update 7 (build 960)', folder: 'E:\keli_v5\ARM\ARMCC\Bin'
+Build target 'CAN'
+compiling main.c...
+..\HARDWARE\LCD\lcd_img.h(13): warning:  #1-D: last line of file ends without a newline
+  #endif  // __LCD_IMAGE_H
+main.c(80): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "u8 *"
+  	LCD_ShowString(112, 25, 200, 20, 24, str);
+main.c(201): warning:  #1035-D: single-precision operand implicitly converted to double-precision
+  			CellVolAage = (BMSCellVoltgMax + BMSCellVoltgMin) / 2.0;
+main.c: 3 warnings, 0 errors
+linking...
+Program Size: Code=49286 RO-data=382130 RW-data=180 ZI-data=1892  
+FromELF: creating hex file...
+"..\OBJ\CAN.axf" - 0 Error(s), 4 Warning(s).
+
+<h2>Software Packages used:</h2>
+
+Package Vendor: Keil
+                http://www.keil.com/pack/Keil.STM32F4xx_DFP.2.14.0.pack
+                Keil.STM32F4xx_DFP.2.14.0
+                STMicroelectronics STM32F4 Series Device Support, Drivers and Examples
+
+<h2>Collection of Component include folders:</h2>
+  E:\keli_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.14.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include
+
+<h2>Collection of Component Files used:</h2>
+Build Time Elapsed:  00:00:07
+</pre>
+</body>
+</html>
