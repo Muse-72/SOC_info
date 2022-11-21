@@ -24,6 +24,5 @@
 	4,CAN接口的CANL/CANH线不能接错,必须CANL接CANL,CANH接CANH.
 	
 	
-		123		
-		
+	
 					
